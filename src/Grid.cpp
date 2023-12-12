@@ -262,7 +262,6 @@ void Grid::handleEvent(SDL_Event &event, bool &stop)
             this->cases[i][y].setMove(false);
         }
     }
-    cout << this->score << endl;
 }
 
 SDL_Color Grid::ColorNumber(int nb)
